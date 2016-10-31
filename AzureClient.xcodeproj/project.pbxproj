@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5BA4281DBA2D9C0075D0FA /* NavigatoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5BA4271DBA2D9C0075D0FA /* NavigatoreViewController.swift */; };
+		EE5BA42A1DBA3F9C0075D0FA /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE5BA4291DBA3F9C0075D0FA /* GoogleMaps.bundle */; };
+		EE6035591DB5722F006748FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6035581DB5722F006748FA /* AppDelegate.swift */; };
+		EE60355B1DB5722F006748FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60355A1DB5722F006748FA /* ViewController.swift */; };
+		EE6035601DB5722F006748FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE60355F1DB5722F006748FA /* Assets.xcassets */; };
+		EE6035631DB5722F006748FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6035611DB5722F006748FA /* LaunchScreen.storyboard */; };
+		EE60356E1DB573F3006748FA /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE60356D1DB573F3006748FA /* MicrosoftAzureMobile.framework */; };
+		EE6035701DB5744B006748FA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE60356F1DB5744B006748FA /* WebKit.framework */; };
+		EE6035721DB574C3006748FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6035711DB574C3006748FA /* Main.storyboard */; };
+		EE6035741DB57577006748FA /* feed.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6035731DB57577006748FA /* feed.png */; };
+		EE6035761DB5757F006748FA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6035751DB5757F006748FA /* back.png */; };
+		EE6035781DB575A5006748FA /* LoginControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6035771DB575A5006748FA /* LoginControllerView.swift */; };
+		EE60357A1DB57EBE006748FA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6035791DB57EBE006748FA /* HomeController.swift */; };
+		EE60357C1DB58ADA006748FA /* FeedBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE60357B1DB58ADA006748FA /* FeedBack.swift */; };
+		EE8B94D91DB94AEB007387A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B94D81DB94AEB007387A0 /* File.swift */; };
+		EEC3BC361DB7E87C00E2367E /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3BC351DB7E87C00E2367E /* SettingsController.swift */; };
+		EEC3BC381DB7F1CA00E2367E /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3BC371DB7F1CA00E2367E /* NewsController.swift */; };
+		EEC3BC3A1DB7F47900E2367E /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3BC391DB7F47900E2367E /* CosmosDistrib.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38BA7099DF5A918D6645F7A4 /* Pods-AzureClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-AzureClient/Pods-AzureClient.release.xcconfig"; sourceTree = "<group>"; };
+		499084CA2928879DD31F0E67 /* Pods-AzureClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AzureClient/Pods-AzureClient.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5BA4271DBA2D9C0075D0FA /* NavigatoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatoreViewController.swift; sourceTree = "<group>"; };
+		EE5BA4291DBA3F9C0075D0FA /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/PXGoogleDirections/Dependencies/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		EE6035551DB5722F006748FA /* AzureClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6035581DB5722F006748FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE60355A1DB5722F006748FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE60355F1DB5722F006748FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6035621DB5722F006748FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6035641DB5722F006748FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE60356A1DB57247006748FA /* AzureClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AzureClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE60356D1DB573F3006748FA /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		EE60356F1DB5744B006748FA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EE6035711DB574C3006748FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EE6035731DB57577006748FA /* feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feed.png; sourceTree = "<group>"; };
+		EE6035751DB5757F006748FA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EE6035771DB575A5006748FA /* LoginControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginControllerView.swift; sourceTree = "<group>"; };
+		EE6035791DB57EBE006748FA /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		EE60357B1DB58ADA006748FA /* FeedBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBack.swift; sourceTree = "<group>"; };
+		EE8B94D81DB94AEB007387A0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		EEC3BC351DB7E87C00E2367E /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		EEC3BC371DB7F1CA00E2367E /* NewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		EEC3BC391DB7F47900E2367E /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6035521DB5722F006748FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6035701DB5744B006748FA /* WebKit.framework in Frameworks */,
+				EE60356E1DB573F3006748FA /* MicrosoftAzureMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A349DC9ACB4B510E9DB593B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499084CA2928879DD31F0E67 /* Pods-AzureClient.debug.xcconfig */,
+				38BA7099DF5A918D6645F7A4 /* Pods-AzureClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E80A736D1511CC656E3B3D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE60356F1DB5744B006748FA /* WebKit.framework */,
+				EE60356D1DB573F3006748FA /* MicrosoftAzureMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE60354C1DB5722F006748FA = {
+			isa = PBXGroup;
+			children = (
+				EE5BA4291DBA3F9C0075D0FA /* GoogleMaps.bundle */,
+				EE6035571DB5722F006748FA /* TplResources */,
+				EE6035561DB5722F006748FA /* Products */,
+				A349DC9ACB4B510E9DB593B0 /* Pods */,
+				E80A736D1511CC656E3B3D64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6035561DB5722F006748FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6035551DB5722F006748FA /* AzureClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6035571DB5722F006748FA /* TplResources */ = {
+			isa = PBXGroup;
+			children = (
+				EE6035581DB5722F006748FA /* AppDelegate.swift */,
+				EE60355A1DB5722F006748FA /* ViewController.swift */,
+				EE6035711DB574C3006748FA /* Main.storyboard */,
+				EE60355F1DB5722F006748FA /* Assets.xcassets */,
+				EE6035751DB5757F006748FA /* back.png */,
+				EEC3BC391DB7F47900E2367E /* CosmosDistrib.swift */,
+				EE6035611DB5722F006748FA /* LaunchScreen.storyboard */,
+				EE6035641DB5722F006748FA /* Info.plist */,
+				EE6035731DB57577006748FA /* feed.png */,
+				EE8B94D81DB94AEB007387A0 /* File.swift */,
+				EE60356A1DB57247006748FA /* AzureClient-Bridging-Header.h */,
+				EE6035771DB575A5006748FA /* LoginControllerView.swift */,
+				EE6035791DB57EBE006748FA /* HomeController.swift */,
+				EE60357B1DB58ADA006748FA /* FeedBack.swift */,
+				EEC3BC351DB7E87C00E2367E /* SettingsController.swift */,
+				EEC3BC371DB7F1CA00E2367E /* NewsController.swift */,
+				EE5BA4271DBA2D9C0075D0FA /* NavigatoreViewController.swift */,
+			);
+			name = TplResources;
+			path = AzureClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6035541DB5722F006748FA /* AzureClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6035671DB5722F006748FA /* Build configuration list for PBXNativeTarget "AzureClient" */;
+			buildPhases = (
+				FFE4CD50555C93AEDB2C8E06 /* [CP] Check Pods Manifest.lock */,
+				EE6035511DB5722F006748FA /* Sources */,
+				EE6035521DB5722F006748FA /* Frameworks */,
+				EE6035531DB5722F006748FA /* Resources */,
+				44B598F116728AC858D550C6 /* [CP] Embed Pods Frameworks */,
+				C56114EE7050C7BF5EF46B07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzureClient;
+			productName = TplResources;
+			productReference = EE6035551DB5722F006748FA /* AzureClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE60354D1DB5722F006748FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "alessio giacobbe";
+				TargetAttributes = {
+					EE6035541DB5722F006748FA = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE6035501DB5722F006748FA /* Build configuration list for PBXProject "AzureClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE60354C1DB5722F006748FA;
+			productRefGroup = EE6035561DB5722F006748FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6035541DB5722F006748FA /* AzureClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6035531DB5722F006748FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5BA42A1DBA3F9C0075D0FA /* GoogleMaps.bundle in Resources */,
+				EE6035631DB5722F006748FA /* LaunchScreen.storyboard in Resources */,
+				EE6035761DB5757F006748FA /* back.png in Resources */,
+				EE6035601DB5722F006748FA /* Assets.xcassets in Resources */,
+				EE6035721DB574C3006748FA /* Main.storyboard in Resources */,
+				EE6035741DB57577006748FA /* feed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44B598F116728AC858D550C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AzureClient/Pods-AzureClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56114EE7050C7BF5EF46B07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AzureClient/Pods-AzureClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE4CD50555C93AEDB2C8E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6035511DB5722F006748FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC3BC361DB7E87C00E2367E /* SettingsController.swift in Sources */,
+				EE60357A1DB57EBE006748FA /* HomeController.swift in Sources */,
+				EE60355B1DB5722F006748FA /* ViewController.swift in Sources */,
+				EEC3BC3A1DB7F47900E2367E /* CosmosDistrib.swift in Sources */,
+				EEC3BC381DB7F1CA00E2367E /* NewsController.swift in Sources */,
+				EE6035781DB575A5006748FA /* LoginControllerView.swift in Sources */,
+				EE5BA4281DBA2D9C0075D0FA /* NavigatoreViewController.swift in Sources */,
+				EE6035591DB5722F006748FA /* AppDelegate.swift in Sources */,
+				EE8B94D91DB94AEB007387A0 /* File.swift in Sources */,
+				EE60357C1DB58ADA006748FA /* FeedBack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE6035611DB5722F006748FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6035621DB5722F006748FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6035651DB5722F006748FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE6035661DB5722F006748FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6035681DB5722F006748FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499084CA2928879DD31F0E67 /* Pods-AzureClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AzureClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.azureClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AzureClient/AzureClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE6035691DB5722F006748FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BA7099DF5A918D6645F7A4 /* Pods-AzureClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AzureClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessio.azureClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AzureClient/AzureClient-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6035501DB5722F006748FA /* Build configuration list for PBXProject "AzureClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6035651DB5722F006748FA /* Debug */,
+				EE6035661DB5722F006748FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6035671DB5722F006748FA /* Build configuration list for PBXNativeTarget "AzureClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6035681DB5722F006748FA /* Debug */,
+				EE6035691DB5722F006748FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE60354D1DB5722F006748FA /* Project object */;
+}
